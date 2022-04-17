@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* { 
+   margin: 0;
+    padding: 0;
+    
+  }
+
+  body{
+      margin: 0;
+      font-family: 'Raleway';
+      position: relative;
+      padding-bottom: 28em;
+    }
+li, a {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #333;
+    
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(27, 27, 255);
+}
+
+.img__broadway{
+    height: 110vh;
+    width: 100%;
+    position: relative;
+    top:0px;
+    bottom: 0px;
+    
+}
+
+.item{
+    margin: 4.8em ;
+    padding: 6em ;
+    float: left;
+    top: 0%;
+    padding-top: 1em;
+}
+
+.text{
+    color:black ;
+    text-align: justify;
+    
+}
+
+.text__broad{
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ .blue-btn a{
+   color: white;
+   text-decoration:none;
+   text-align: center;
+   display:block; /* important */
+ }
+ 
+ .blue-btn, .first-link{
+   -webkit-transition: 0.3s;
+   -moz-transition: 0.3s;
+   -ms-transition: 0.3s;
+   -o-transition: 0.3s;
+   transition: 0.3s;     
+ }
+ 
+ 
+ .blue-btn{
+   height: 64px;
+   font: normal normal 700 1em/4em Arial,sans-serif;
+   overflow: hidden;
+   width: 200px;
+   background-color: #3b5998;
+   border-radius: 20px;
+ }
+ 
+ .blue-btn:hover{
+    background-color: #003D60;
+   
+ }
+ 
+ .blue-btn a:hover{
+   text-decoration: none;
+ }
+ 
+ .first-link{
+   margin-top: 0em;   
+ }
+ 
+ .blue-btn:hover .first-link{
+   margin-top: -4em;
+ }
+
+ .blue-btn{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ footer{
+     background-color: #333;
+     padding: 2em 0;
+     text-align: center;
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     
+ }
